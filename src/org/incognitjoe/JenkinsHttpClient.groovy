@@ -35,7 +35,7 @@ class JenkinsHttpClient {
      * @param body
      * @return response body as String
      */
-    def post_json(String url, Map<?, ?> body) {
+    def postJson(String url, Map<?, ?> body) {
         String jsonbody = new JsonBuilder(body).toString()
         def resp = httpRequest.post(url)
                 .header("User-Agent", userAgent)

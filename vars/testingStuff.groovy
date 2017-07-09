@@ -7,5 +7,5 @@ def print_ghibli_films() {
 
 def notifySlack(String slackHookUrl, Map<?, ?> postBody) {
     JenkinsHttpClient http = new JenkinsHttpClient()
-    http.post_json(slackHookUrl, postBody)
+    http.postJson(slackHookUrl, postBody)
 }
