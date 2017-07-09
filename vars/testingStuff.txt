@@ -1,0 +1,1 @@
+This file displays help text for your definitions in the Jenkins UI under Pipeline Syntax > Global Variables Reference.
